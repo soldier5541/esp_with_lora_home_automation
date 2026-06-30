@@ -120,12 +120,12 @@ The communication remained stable throughout the entire test without packet loss
 
 ### LoRa Module
 
-| ESP32 | LoRa |
-|-------|------|
-| GPIO5 | NSS (CS) |
+| ESP32  | LoRa |
+|--------|------|
+| GPIO5  | NSS (CS) |
 | GPIO34 | RESET |
-| GPIO2 | DIO0 |
-| SPI | SCK, MOSI, MISO |
+| GPIO2  | DIO0 |
+| SPI    | SCK, MOSI, MISO |
 
 ### Buttons
 
@@ -135,27 +135,6 @@ The communication remained stable throughout the entire test without packet loss
 | Switch 2 | GPIO13 |
 | Switch 3 | GPIO14 |
 | Switch 4 | GPIO26 |
-
----
-
-## 📂 Project Structure
-
-```
-LoRa-Home-Automation/
-│
-├── Transmitter/
-│   └── transmitter.ino
-│
-├── Receiver/
-│   └── receiver.ino
-│
-├── Images/
-│   ├── transmitter.jpg
-│   ├── receiver.jpg
-│   └── setup.jpg
-│
-└── README.md
-```
 
 ---
 
@@ -213,20 +192,6 @@ The transmitter firmware performs the following operations:
 - Multiple receiver support
 - Mesh networking
 - OTA firmware updates
-
----
-
-## 📷 Project Images
-
-You can add photos of:
-
-- Complete setup
-- Transmitter
-- Receiver
-- PCB
-- Range testing
-- OLED display
-- Relay operation
 
 ---
 
